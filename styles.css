@@ -102,11 +102,11 @@ nav ul li a:hover {
 }
 
 .main-wallpaper {
-    background-image: url('Ouddorp-Zeeland-Nederland.jpg'); /* Add main wallpaper image */
+    background-image: url('images/Ouddorp-Zeeland-Nederland.jpg'); /* Add main wallpaper image */
 }
 
 .secondary-wallpaper {
-    background-image: url('zeeland_wallpaper_secondary.jpg'); /* Add secondary wallpaper image */
+    background-image: url('images/Ouddorp-Zeeland-Nederland.jpg'); /* Add secondary wallpaper image */
 }
 
 .welcome-section {
