@@ -137,3 +137,20 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+
+h2 {
+    color: #fff;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Additional styling for the logo can be added here */
