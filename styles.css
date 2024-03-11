@@ -154,3 +154,9 @@ h2 {
 }
 
 /* Additional styling for the logo can be added here */
+.image1{
+    width: 400px;
+    height: 500px;
+    margin-top: 180px;
+    margin-left: 150px;
+}
