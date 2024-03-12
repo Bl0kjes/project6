@@ -94,20 +94,20 @@ nav ul li a:hover {
     }
 }
 
-.wallpaper {
+body {
     position: relative;
+    background-image: url('images/Ouddorp-Zeeland-Nederland.jpg'); /* Add main wallpaper image */
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the background image */
     height: 100vh;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    
 }
 
-.main-wallpaper {
-    background-image: url('images/Ouddorp-Zeeland-Nederland.jpg'); /* Add main wallpaper image */
-}
 
-.secondary-wallpaper {
-    background-image: url('images/Ouddorp-Zeeland-Nederland.jpg'); /* Add secondary wallpaper image */
-}
 
 .welcome-section {
     position: absolute;
@@ -126,16 +126,6 @@ nav ul li a:hover {
 
 .welcome-section h1:hover {
     font-size: 3.5rem; /* Increase font size on hover */
-}
-
-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
 }
 
 
@@ -159,4 +149,58 @@ h2 {
     height: 500px;
     margin-top: 180px;
     margin-left: 150px;
+    float: left;
+    border: 1px solid #0f0808;
+    opacity: 0.8;
+}
+
+
+.container {
+    width: 500px; /* Adjust width as needed */
+    height: 405px; /* Adjust height as needed */
+    background-color: #e0dbdb;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid #0f0808;
+    display: inline-block; /* or use float: left; */
+    margin-left: 370px; /* Adjust margin as needed */
+    margin-top: 200px;
+    opacity: 0.7;
+}
+.container1 {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    max-width: 400px;
+}
+
+.btn {
+    position: absolute;
+    bottom: 10px; /* Adjust as needed */
+    right: 10px; /* Adjust as needed */
+    background-color: rgba(32, 175, 34, 0.8); /* Semi-transparent white background */
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 25px;
+    width: 148px;
+    text-underline-offset: none;
+}
+
+.btn:hover {
+    background-color: rgba(103, 243, 43, 0.9); /* Lighten the background on hover */
+}
+
+.container1 .btn {
+    position: absolute;
+    top:82%;
+    left: 64%;
+    bottom: 10%;
+    transform: translate(-50%, -50%);
+}
+
+a.btn{
+    text-decoration: none;
+    color: #e0dbdb;
 }
