@@ -106,7 +106,7 @@ nav ul li a:hover {
 }
 
 .secondary-wallpaper {
-    background-image: url('zeeland_wallpaper_secondary.jpg'); /* Add secondary wallpaper image */
+    background-image: url('images/mooistestrand-zeeland-1.jpg'); /* Add secondary wallpaper image */
 }
 
 .welcome-section {
@@ -154,3 +154,39 @@ h2 {
 }
 
 /* Additional styling for the logo can be added here */
+/* styles.css */
+.contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.contact-form textarea {
+    height: 100px;
+}
+
+.contact-form input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #45a049;
+}
