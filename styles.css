@@ -210,10 +210,11 @@ a.btn{
     display: inline-block;
     width: 300px;
     height: 330px;
-    margin-top: 170px;
+    margin-top: 70px;
     margin-left: 200px;
     border: #000000;
     border-radius: 20px;
+    bottom: 33%;
 }
 
 .container3{
@@ -227,6 +228,20 @@ a.btn{
     display: inline-block; /* or use float: left; */
     margin-left: 20px; 
     margin-top: 170px;
+    opacity: 0.8;
+}
+
+.container4{
+    width: 700px; 
+    height: 330px; 
+    background-color: #c0b6b6;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid #0f0808;
+    display: inline-block; /* or use float: left; */
+    margin-left: 20px; 
+    margin-top: 1px;
     opacity: 0.8;
 }
 
