@@ -179,7 +179,7 @@ h2 {
     position: absolute;
     bottom: 10px; /* Adjust as needed */
     right: 10px; /* Adjust as needed */
-    background-color: rgba(32, 175, 34, 0.8); /* Semi-transparent white background */
+    background-color: rgba(29, 159, 31, 0.8); /* Semi-transparent white background */
     padding: 8px 16px;
     border-radius: 4px;
     cursor: pointer;
@@ -189,13 +189,13 @@ h2 {
 }
 
 .btn:hover {
-    background-color: rgba(103, 243, 43, 0.9); /* Lighten the background on hover */
+    background-color: rgba(15, 43, 2, 0.9); 
 }
 
 .container1 .btn {
     position: absolute;
     top:82%;
-    left: 64%;
+    left: 68%;
     bottom: 10%;
     transform: translate(-50%, -50%);
 }
@@ -204,3 +204,53 @@ a.btn{
     text-decoration: none;
     color: #e0dbdb;
 }
+
+.container2{
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: 330px;
+    margin-top: 170px;
+    margin-left: 200px;
+    border: #000000;
+    border-radius: 20px;
+}
+
+.container3{
+    width: 700px; 
+    height: 330px; 
+    background-color: #c0b6b6;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid #0f0808;
+    display: inline-block; /* or use float: left; */
+    margin-left: 20px; 
+    margin-top: 170px;
+    opacity: 0.8;
+}
+
+.btn1 {
+    bottom: 10px; /* Adjust as needed */
+    right: 10px; /* Adjust as needed */
+    background-color: rgba(29, 159, 31, 0.8); /* Semi-transparent white background */
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 148px;
+    text-underline-offset: none;
+    margin-left: 500px;
+    position: relative;
+    margin-bottom: 40px;
+    bottom: 16%;
+}
+
+a.btn1{
+    text-decoration: none;
+    color: #e0dbdb;
+}
+
+.btn1:hover {
+    background-color: rgba(15, 43, 2, 0.9); /* Lighten the background on hover */
+}
+
