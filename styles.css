@@ -269,3 +269,135 @@ a.btn1{
     background-color: rgba(15, 43, 2, 0.9); /* Lighten the background on hover */
 }
 
+.containerh{
+    position: relative;
+    display: inline-block;
+    width: 480px;
+    height: 600px;
+    margin-top: 70px;
+    margin-left: 100px;
+    border: #000000;
+    border-radius: 20px;
+    top: 3%;
+}
+
+.containerh1{
+    width: 700px; 
+    height: 600px; 
+    background-color: #c0b6b6;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid #0f0808;
+    display: inline-block; /* or use float: left; */
+    margin-left: 50px; 
+    margin-top: 92px;
+    opacity: 0.8;
+}
+
+.container10{
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: 330px;
+    margin-top: 70px;
+    margin-left: 200px;
+    border: #000000;
+    border-radius: 20px;
+    bottom: 20%;  
+}
+
+.container11{
+    width: 700px; 
+    height: 330px; 
+    background-color: #c0b6b6;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid #0f0808;
+    display: inline-block; /* or use float: left; */
+    margin-left: 20px; 
+    margin-top: 110px;
+    opacity: 0.8;
+}
+
+.map-container {
+    width: calc(25% - 20px); /* Adjust width to fit 4 maps in a row */
+    height: 200px; /* Reduced height for smaller maps */
+    margin-top: 20px; /* Adjust this value as needed */
+    margin-right: 20px; /* Add margin for spacing between maps */
+    flex: 1; /* Make each map container take up equal space */
+    margin-right: 20px;
+    margin-top: 70px;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-left: 20px;
+}
+
+.map-row {
+    display: flex; /* Use flexbox to create a row */
+    margin-bottom: 20px; /* Add some space between rows */
+  }
+
+.bottom-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align items to the top */
+    min-height: 80vh; /* Adjust the height as needed */
+}
+
+/* Add CSS styles for the contact form */
+.contact-form-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    margin-left: 100px;
+    margin-top: 100px;
+    width: 300px;
+}
+
+.contact-form-text {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-form form {
+    display: grid;
+    gap: 10px;
+}
+
+.contact-form label {
+    font-weight: bold;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form input[type="submit"] {
+    background-color: #31c426b6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
